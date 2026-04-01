@@ -1,0 +1,16 @@
+.env
+.vscode/
+db.sqlite3
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.npm-cache/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env

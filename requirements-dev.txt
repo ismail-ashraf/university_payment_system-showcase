@@ -1,0 +1,23 @@
+# ─── Development & Testing Only ──────────────────────────────────────────────
+# Install with: pip install -r requirements-dev.txt
+# DO NOT install in production
+
+# Testing
+pytest>=8.0                       # Test runner (alternative to manage.py test)
+pytest-django>=4.8                # Django plugin for pytest
+pytest-cov>=5.0                   # Coverage reporting
+coverage>=7.4                     # Coverage measurement
+
+# Code quality
+black>=24.0                       # Auto-formatter (PEP 8 compliant)
+isort>=5.13                       # Import sorter
+flake8>=7.0                       # Linter
+mypy>=1.9                         # Static type checker
+django-stubs>=4.2                 # mypy stubs for Django
+
+# Debug & introspection
+django-debug-toolbar>=4.3         # SQL query inspector in dev
+ipython>=8.0                      # Better manage.py shell
+
+# API testing
+httpie>=3.2                       # curl alternative for testing APIs

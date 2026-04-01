@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-mist text-ink;
+}
+
+a {
+  @apply text-ocean hover:text-sea;
+}
